@@ -22,15 +22,15 @@ class MainActivity : AppCompatActivity() {
         val email = findViewById<ExtendedFloatingActionButton>(R.id.email)
 
         telefone.setOnClickListener {
-            showRedirectingMessageAndRedirect("tel:" + "5555555555")
+            showRedirectingMessageAndRedirect("tel:" + "9999999999")
         }
 
         navegador.setOnClickListener {
-            showRedirectingMessageAndRedirect("http://google.com")
+            showRedirectingMessageAndRedirect("http://google.com.br")
         }
 
         mensagem.setOnClickListener {
-            showRedirectingMessageAndRedirect("sms:" + "5555555555")
+            showRedirectingMessageAndRedirect("sms:" + "9999999999")
         }
 
         email.setOnClickListener {
